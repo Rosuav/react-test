@@ -14,5 +14,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rosuav/react-test/issues"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
   }
 }
