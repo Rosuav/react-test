@@ -5,6 +5,7 @@
   "main": "index.jsx",
   "scripts": {
     "build": "rm -f build/* && mkdir -p build && cp index.html build && node_modules/.bin/webpack",
+    "pub": "npm run build && publish-gh-pages && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
