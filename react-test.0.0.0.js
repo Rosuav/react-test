@@ -47,7 +47,8 @@
 	var $ = __webpack_require__(1);
 	
 	$(document).ready(function() {
-		document.getElementById("test").innerHTML = "This came from index.js.";
+		console.log("Hello, world?");
+		$("test").text("This came from index.js.");
 	});
 
 
