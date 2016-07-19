@@ -70,8 +70,20 @@
 	    );
 	};
 	
+	var PersonList = function PersonList() {
+	    return React.createElement(
+	        'div',
+	        { className: 'person-list' },
+	        React.createElement(Person, null),
+	        React.createElement(Person, null),
+	        React.createElement(Person, null),
+	        React.createElement(Person, null),
+	        React.createElement(Person, null)
+	    );
+	};
+	
 	document.addEventListener('DOMContentLoaded', function () {
-	    ReactDOM.render(React.createElement(Person, null), document.getElementById('app'));
+	    ReactDOM.render(React.createElement(PersonList, null), document.getElementById('app'));
 	});
 
 /***/ },
