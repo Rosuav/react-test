@@ -4,6 +4,7 @@
   "description": "Demo/test project",
   "main": "index.js",
   "scripts": {
+    "build": "rm -f build/* && mkdir -p build && cp index.html build && node_modules/.bin/webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
